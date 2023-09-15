@@ -1,5 +1,8 @@
 package com.example.asterixapi;
 
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document("Characters")
 public class Character {
 
     String id;
